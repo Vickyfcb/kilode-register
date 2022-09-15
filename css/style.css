@@ -188,6 +188,12 @@ input{
         font-size: .6rem;
     }
 }
+@media screen  and (min-width:576px) {
+    .login__forms{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
 @media screen and (min-width:767px) {
     body{
         margin: 0;
@@ -199,7 +205,7 @@ input{
     .login__forms{
         width: 100%;
         border-radius: 1rem 0 0 1rem;
-        padding: 5rem 3rem 0 3rem;
+        padding: 5rem 5rem 0 5rem;
     }
     .header{
         padding-left: 7rem;
@@ -241,5 +247,9 @@ input{
     }
     .login__title{
         font-size: 1.7rem;
+    }
+    .login__forms{
+        padding-left: 12rem;
+        padding-right: 12rem;
     }
 }
